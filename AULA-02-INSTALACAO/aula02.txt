@@ -1,0 +1,14 @@
+1. Criar um projeto Node.
+> npm init -y
+
+2. Instalando o TypeScript.
+> npm install typescript -D
+
+3. Criar um arquivo typeScript.
+> touch index.ts
+
+4. O Node e o Browser precisam compilar o typeScript e gerar um arquivo javaScript, comando para gerar.
+> npx tsc index.js
+
+5. Deixando em modo watch
+> npx tsc index.js --watch

@@ -1,0 +1,2 @@
+O que é?
+R: É uma linguagem que adiciona tipagem estática no javascript.

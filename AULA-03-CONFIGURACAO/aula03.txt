@@ -1,0 +1,2 @@
+// Criando o arquivo tsconfig.json
+> npx tsc --init

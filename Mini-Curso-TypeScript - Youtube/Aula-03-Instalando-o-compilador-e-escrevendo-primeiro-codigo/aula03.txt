@@ -1,0 +1,10 @@
+// Instalando o compilador e escrevendo primeiro código.
+
+A extensão do TypeScript é .ts
+
+Para compilar pode utilizar o seguinte comando:
+
+tsc arquivo --watch
+
+
+Se o TypeScript ou o TSLint não estiver reclamando não precisa typar, fica redundante.

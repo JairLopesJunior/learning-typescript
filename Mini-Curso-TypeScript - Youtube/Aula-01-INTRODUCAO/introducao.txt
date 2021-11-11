@@ -1,0 +1,29 @@
+// Introdução ao TypeScript
+
+O que é o TypeScriipt?
+
+- É um superset do JavaScript.
+- Adiciona novas features ao JavaScript
+- Basicamente, tipagem estática!
+- Compila para JavaScript
+- Permite adoção gradual (arquivos.ts convivem com .js)
+
+
+Mas então, é "linguagem" ou não é?
+
+- Whatever you want (É o que você quiser que seja!).
+
+
+Por que usar TypeScript?
+
+- Evita resultados inesperados.
+- O TypeScript avisa se estiver fazendo algo errado.
+- Já funciona como uma espécie de documentação.
+- Oferece o recurso dos metodos daquele tipo da variavel.
+
+
+Desvantagens do TypeScript.
+
+- Necessita ser compilado (Mais passos no tooling).
+- Aprendizado inicial dos tipos e boas práticas.
+- Erros nem sempre muito claros ou então muitos grandes.

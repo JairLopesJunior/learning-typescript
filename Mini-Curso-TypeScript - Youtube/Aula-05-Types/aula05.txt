@@ -1,0 +1,65 @@
+// Types
+
+Existem os tipos primitivos e alguns outros tipos que o TypeScript implementou, segue os tipos:
+
+
+boolean (true / false):
+let isOpen: boolean; // Padrão é undefined
+isOpen = true;
+
+
+string ('foo', "foo", `foo`)
+let message: string; // Padrão é undefined
+message = 'Texto exemplo';
+
+
+number (int, float, hex, binary)
+let total: number;
+total = 20;
+
+
+array (type[])
+let itens: string[]
+items = ["foo", "bar"];
+let values: Array<number>
+values = [1, 2, 3];
+
+
+tuple - Precisa saber quantos são e quais tipos eles são.
+let title: [number, string]
+title = [1, "foo"]
+
+
+enum - Serve para criar um conjunto de Chave Valor
+enum Colors {
+  white = '#fff',
+  black = '#000'
+}
+
+
+any - Qualquer coisa -  NÃO É LEGAL!
+let coisa: any;
+coisa = 'Qualquer coisa'
+
+
+void (vazio)
+function logger(): void {
+  console.log('foo');
+}
+
+
+null | undefined - Não é aconselhavel definir variaveis como null
+
+
+never (é o tipo que a gente fala que nunca vai retornar)
+function error(): never {
+  throw new Error("Error");
+}
+
+
+object (É o todos os tipos que não são nem string, nem array, nem boolean e nem number)
+let cart: object;
+cart = {
+  key: "fi"
+};
+

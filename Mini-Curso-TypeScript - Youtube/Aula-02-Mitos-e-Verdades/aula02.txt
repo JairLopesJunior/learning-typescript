@@ -1,0 +1,35 @@
+// Mitos e verdades do TypeScript
+
+Vou ter que aprender tudo de novo?
+
+R: Não, o TypeScript é o JavaScript com tipos.
+
+
+Vou precisar reescrever tudo para TypeScript?
+
+R: Você pode fazer a adoção gradual e trabalhar com os dois juntos e tudo que criar novo, criar com TypeScript.
+
+
+Ja escrevo testes, não preciso disso?
+
+R: Existem casos que os testes não vão pegar, o TypeScript pode ajudar nesta parte.
+
+
+Só funciona com POO (Programação Orientada a Objeto)?
+
+R: Não, ele funciona com qualquer Paradigma que você queira.
+
+
+Ele é verboso demais, precisa tipar tudo?
+
+R: Não precisar tipar tudo, tem partes que o proprio TypeScript já sabe qual é o tipo.
+
+
+Só serve para projeto grande?
+
+R: Não, ele pode ser utilizado em qualquer tipo de projeto.
+
+
+É só usar PropTypes que dá na mesma?
+
+R: O TypeScript é melhor e mais completo para se utilizar. 

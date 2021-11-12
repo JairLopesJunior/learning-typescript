@@ -1,0 +1,12 @@
+// Type Aliases e Union
+
+
+Union - Passa os tipos que aquela variavel ou metodo pode ser.
+
+function loDetails(uid: number | string, item: string) {
+}
+
+
+Type Aliases - Pode criar um tipo para o Unions
+
+type Uid = number | string;

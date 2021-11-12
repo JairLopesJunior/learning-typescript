@@ -1,0 +1,12 @@
+// Criando e configurando TSconfig
+
+tsconfig.json // Arquivo de configuração do TypeScript.
+
+
+Comando para criar o arquivo:
+
+> tsc --init
+
+Propriedades:
+
+"outDir": "./caminho" // Lugar onde será gerado os arquivos .js

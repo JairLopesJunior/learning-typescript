@@ -1,0 +1,50 @@
+// Classes
+
+obs: Não são obrigatórias.
+
+// Comando para instalar o Nodemon
+
+npm install -g nodemon
+
+
+private // Significa que nenhum lugar externo vai conseguir chamar e nem alterar esta propriedade.
+
+readonly // Significa que o atributo pode ser lido porem não editado.
+
+public // Significa que ela é publica não existe nenhuma regra.
+
+protected // Significa que a gente consegue chamar dentro da Classe ou das suas subClasses somente.
+
+
+// Exemplo do metodo GET
+get getLevel() {
+   console.log("----GET----");
+   return this.level;
+}
+
+Para chamar ele: 
+> console.log(john.getLevel);
+
+
+// Exemplo do metodo SET
+set setLevel(level: number) {
+   this.level = level;
+}
+
+Para usar ele: 
+> john.setLevel = 499;
+console.log(john.getLevel);
+
+Se der este erro:
+> src/app/classes/classes.ts:29:9 - error TS1056: Accessors are only available when targeting ECMAScript 5 and higher.
+
+Compilar assim:
+> tsc -t es5 src/app/classes/classes.ts
+
+
+
+// Abstract Class
+
+O que é?
+R: Basicamente é uma classe abstrata, onde não é possivel criar objetos a partir dela, porem eu posso extender ela. A classe abstrata é interessante quando a 
+gente quer criar classes que irão ser extendida.

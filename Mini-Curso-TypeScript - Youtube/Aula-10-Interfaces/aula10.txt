@@ -1,0 +1,50 @@
+// Interfaces
+
+O que é?
+
+R: São um conjunto de dados para descrever a estrutura de um objeto. é exclusivo para objetos.
+
+Ex: 
+interface Game {
+    title: string;
+    description: string;
+    genre: string;
+    platform: string[];
+    getSimilars: (title: string) => void;
+}
+
+
+// Em Interfaces também é possivel utilizar Modificadores de Acesso.
+
+
+
+// Podemos extender interfaces
+
+interface Game {
+    title: string;
+}
+
+interface DLC extends Game {
+    originalGame: Game;
+}
+
+
+// Podemos implementar interfaces
+
+interface Game {
+    title: string;
+    description: string;
+    genre: string;
+}
+
+class CreateGame implements Game {
+    title: string;
+    description: string;
+    genre: string;
+
+    constructor(t: string, d: string, g: string) {
+        this.title = t;
+        this.description = d;
+        this.genre = g;
+    }
+}

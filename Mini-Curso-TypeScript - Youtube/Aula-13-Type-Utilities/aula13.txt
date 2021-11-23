@@ -1,0 +1,10 @@
+// Type Utilities
+
+O que são?
+R: São utilitarios para podermos trabalhar com os tipos, quando a gente cria tipos seja com type-alias ou com interfaces,
+existe algum momento que a gente quer fazer operações em cima dos proprios tipos, os utilitarios vão servir para isto.
+
+Readonly<TipoDaClasse> // Todos os atributos dentro vão ser readonly.
+Partial<TipoDaClasse> // Deixa todas as propriedades opcionais.
+Pick<Todo, "title" | "description"> // Ele pega somente as propriedades que eu quiser e que existir no type.
+Omit<Todo, "description"> // É o inverso do Pick, ele vai ignorar as propriedades passadas.

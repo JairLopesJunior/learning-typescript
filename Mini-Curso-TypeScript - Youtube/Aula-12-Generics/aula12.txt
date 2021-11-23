@@ -1,0 +1,13 @@
+// Generics
+
+function useState<S extends number | string>() {} // Aceita number e String
+
+function useState<S extends number | string = string) {} // Por padrão é string
+
+// S => State
+// T => Type
+// K => Key
+// V => Value
+// E => Element
+
+unknown // (Tipo Desconhecido) Depois de receber o tipo ele permanecerá aquele tipo.

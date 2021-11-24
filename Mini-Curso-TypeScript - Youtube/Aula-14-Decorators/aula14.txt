@@ -1,0 +1,14 @@
+// Decorators
+
+O que é?
+R: O decorator vai trabalhar em cima dessas partes anotadas para que a gente consiga adicionar coisas novas. (É uma função).
+
+// @Component
+// @Selector
+// @useState("dasdas")
+
+// Class decorator
+// Property decorator
+// Method decorator
+// Parameter decorator
+// Acessor decorator
